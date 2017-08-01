@@ -1,0 +1,168 @@
+@model BlueSkyElectronics.Models.TFiling
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TFiling</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FilingNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FilingNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FilingTypeId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FilingTypeId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StateId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StateId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SecurityId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SecurityId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prospectus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prospectus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CheckId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CheckId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PermitNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PermitNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StatusId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StatusId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FiledDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FiledDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EffectiveDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EffectiveDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EffDateCode)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EffDateCode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpiryDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ExpiryDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RegisteredAmt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RegisteredAmt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SoldAmt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SoldAmt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FilingFee)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FilingFee)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EnvelopeId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EnvelopeId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Notes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Notes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Deleted)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Deleted)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FilingCategoryCode)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FilingCategoryCode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FeeBasicCode)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FeeBasicCode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FilingRuleId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FilingRuleId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Renewal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Renewal)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ChequeAmount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ChequeAmount)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesFromDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalesFromDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesToDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalesToDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.FilingId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,179 @@
+@model IEnumerable<BlueSkyElectronics.Models.TFiling>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FilingNo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FilingTypeId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StateId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SecurityId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Prospectus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CheckId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PermitNo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StatusId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FiledDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EffectiveDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EffDateCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ExpiryDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RegisteredAmt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SoldAmt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FilingFee)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EnvelopeId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Notes)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Deleted)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FilingCategoryCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FeeBasicCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FilingRuleId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Renewal)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ChequeAmount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SalesFromDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SalesToDate)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilingNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilingTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StateId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SecurityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prospectus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CheckId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PermitNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FiledDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EffectiveDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EffDateCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpiryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegisteredAmt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoldAmt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilingFee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnvelopeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deleted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilingCategoryCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FeeBasicCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilingRuleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Renewal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChequeAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SalesFromDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SalesToDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.FilingId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.FilingId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.FilingId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

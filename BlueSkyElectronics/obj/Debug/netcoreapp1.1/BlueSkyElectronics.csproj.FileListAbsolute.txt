@@ -1,0 +1,9 @@
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\bin\Debug\netcoreapp1.1\BlueSkyElectronics.deps.json
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\bin\Debug\netcoreapp1.1\BlueSkyElectronics.runtimeconfig.json
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\bin\Debug\netcoreapp1.1\BlueSkyElectronics.runtimeconfig.dev.json
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\bin\Debug\netcoreapp1.1\BlueSkyElectronics.dll
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\obj\Debug\netcoreapp1.1\BlueSkyElectronics.csprojResolveAssemblyReference.cache
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\obj\Debug\netcoreapp1.1\BlueSkyElectronics.AssemblyInfo.cs
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\bin\Debug\netcoreapp1.1\BlueSkyElectronics.pdb
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\obj\Debug\netcoreapp1.1\BlueSkyElectronics.dll
+C:\Users\ksirimulla\Google Drive\SVR\Development\BlueSkyElectronics\BlueSkyElectronics\BlueSkyElectronics\obj\Debug\netcoreapp1.1\BlueSkyElectronics.pdb

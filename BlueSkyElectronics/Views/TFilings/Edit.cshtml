@@ -1,0 +1,204 @@
+@model BlueSkyElectronics.Models.TFiling
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <h4>TFiling</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="FilingId" />
+        <div class="form-group">
+            <label asp-for="FilingNo" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FilingNo" class="form-control" />
+                <span asp-validation-for="FilingNo" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="FilingTypeId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FilingTypeId" class="form-control" />
+                <span asp-validation-for="FilingTypeId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="StateId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="StateId" class="form-control" />
+                <span asp-validation-for="StateId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SecurityId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SecurityId" class="form-control" />
+                <span asp-validation-for="SecurityId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Prospectus" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Prospectus" class="form-control" />
+                <span asp-validation-for="Prospectus" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CheckId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CheckId" class="form-control" />
+                <span asp-validation-for="CheckId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="PermitNo" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="PermitNo" class="form-control" />
+                <span asp-validation-for="PermitNo" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="StatusId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="StatusId" class="form-control" />
+                <span asp-validation-for="StatusId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="FiledDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FiledDate" class="form-control" />
+                <span asp-validation-for="FiledDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="EffectiveDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="EffectiveDate" class="form-control" />
+                <span asp-validation-for="EffectiveDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="EffDateCode" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="EffDateCode" class="form-control" />
+                <span asp-validation-for="EffDateCode" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ExpiryDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ExpiryDate" class="form-control" />
+                <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="RegisteredAmt" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="RegisteredAmt" class="form-control" />
+                <span asp-validation-for="RegisteredAmt" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SoldAmt" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SoldAmt" class="form-control" />
+                <span asp-validation-for="SoldAmt" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="FilingFee" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FilingFee" class="form-control" />
+                <span asp-validation-for="FilingFee" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="EnvelopeId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="EnvelopeId" class="form-control" />
+                <span asp-validation-for="EnvelopeId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Notes" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Notes" class="form-control" />
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Deleted" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Deleted" class="form-control" />
+                <span asp-validation-for="Deleted" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="FilingCategoryCode" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FilingCategoryCode" class="form-control" />
+                <span asp-validation-for="FilingCategoryCode" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="FeeBasicCode" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FeeBasicCode" class="form-control" />
+                <span asp-validation-for="FeeBasicCode" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="FilingRuleId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FilingRuleId" class="form-control" />
+                <span asp-validation-for="FilingRuleId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Renewal" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Renewal" class="form-control" />
+                <span asp-validation-for="Renewal" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ChequeAmount" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ChequeAmount" class="form-control" />
+                <span asp-validation-for="ChequeAmount" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SalesFromDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SalesFromDate" class="form-control" />
+                <span asp-validation-for="SalesFromDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SalesToDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SalesToDate" class="form-control" />
+                <span asp-validation-for="SalesToDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
